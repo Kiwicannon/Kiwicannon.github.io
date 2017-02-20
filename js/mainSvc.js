@@ -2,7 +2,7 @@ angular.module('app').service('mainSvc', function($http) {
     var baseUrl = 'https://api.unsplash.com/'
     var collection = 'collections/386686/photos'
     var key = '?client_id=e9f6fb6e969eb04865b33e4ef3d40d4f3b6302b16a255bc233dc3e0905452427'
-    var quoteUrl = 'http://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en'
+    var quoteUrl = 'https://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en'
     this.getPics= function(){
         return $http.get('nature.json')
         console.log(this.getPics)
