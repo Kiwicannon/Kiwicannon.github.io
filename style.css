@@ -11,12 +11,12 @@ div#memory_board{
     opacity: .9;
 }
 div#memory_board > div{
-    background: url(rock.jpg) no-repeat;
+       background: url(rock.jpg) no-repeat;
     border: #000 1px solid;
-    width: 105px;
-    height: 105px;
+    width: 120px;
+    height: 120px;
     float: left;
-    margin: 20px 9px 0px 9px;
+    margin: 20px 20px 0px 20px;
     padding: 25px;
     font-size: 20px;
     cursor: pointer;
@@ -29,6 +29,7 @@ div#memory_board > div{
 html{
     background: url(mtn.jpg) no-repeat;
     background-size: cover;
+    padding-bottom: 20px;
 }
 .image{
     width: 10vw;
